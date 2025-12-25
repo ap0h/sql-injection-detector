@@ -1,7 +1,7 @@
 {
-  "name": "sql-injection-detector",
+  "name": "@ap0h/sqli-detector",
   "version": "1.0.0",
-  "description": "A safe, pure JavaScript SQL injection detection library with zero dependencies",
+  "description": "A safe, pure JavaScript SQL injection detection library with zero dependencies. Detects UNION, boolean, time-based, and PostgreSQL-specific injections.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -12,21 +12,40 @@
     "sql-injection-detector",
     "security",
     "sanitization",
-    "xss",
-    "input-validation"
+    "input-validation",
+    "sql",
+    "injection",
+    "detection",
+    "postgresql",
+    "mysql",
+    "database-security",
+    "waf",
+    "firewall"
   ],
-  "author": "Safe Rewrite",
+  "author": "ap0h",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
   },
   "files": [
     "index.js",
-    "index.d.ts"
+    "index.d.ts",
+    "README.md"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/sql-injection-detector-safe"
+    "url": "git+https://github.com/ap0h/sql-injection-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ap0h/sql-injection-detector/issues"
+  },
+  "homepage": "https://github.com/ap0h/sql-injection-detector#readme",
+  "funding": {
+    "type": "individual",
+    "url": "https://solscan.io/account/25iWiaiKvUjkG1DoA9MujPiEdE6kTbKokchfE4ohNMnT"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
 
