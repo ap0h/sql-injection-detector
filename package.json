@@ -1,0 +1,32 @@
+{
+  "name": "sql-injection-detector",
+  "version": "1.0.0",
+  "description": "A safe, pure JavaScript SQL injection detection library with zero dependencies",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "sql-injection",
+    "sql-injection-detector",
+    "security",
+    "sanitization",
+    "xss",
+    "input-validation"
+  ],
+  "author": "Safe Rewrite",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/sql-injection-detector-safe"
+  }
+}
+
